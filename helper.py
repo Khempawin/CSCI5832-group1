@@ -53,4 +53,12 @@ def encode_label(inputRow):
         output_vector[k] = inputRow[v[0]] + inputRow[v[1]] * -1
     return output_vector
 
+def decode_label(embeddedVal, threshold=0.3):
+    out = [0] * 20
+    for i, v in pair_dict.items():
+        if(embeddedVal[i] >= threshold):
+            out[i] = 1
+        elif(embeddedVal[i] <= (-threshold)):
+            out[i + 10] = 1
+    return out
 
