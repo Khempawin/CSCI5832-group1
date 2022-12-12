@@ -43,8 +43,18 @@ opposite_pairs = {
     "Universalism: objectivity": (9, -1),
 }
 
-pair_dict = {0: ['Self-direction: thought', 'Tradition'], 1: ['Self-direction: action', 'Conformity: rules'], 2: ['Stimulation', 'Conformity: interpersonal'], 3: ['Hedonism', 'Humility'], 4: ['Achievement', 'Benevolence: caring'],
-             5: ['Power: dominance', 'Benevolence: dependability'], 6: ['Power: resources', 'Universalism: concern'], 7: ['Face', 'Universalism: nature'], 8: ['Security: personal', 'Universalism: tolerance'], 9: ['Security: societal', 'Universalism: objectivity']}
+pair_dict = {
+    0: ['Self-direction: thought', 'Tradition'], 
+    1: ['Self-direction: action', 'Conformity: rules'], 
+    2: ['Stimulation', 'Conformity: interpersonal'], 
+    3: ['Hedonism', 'Humility'], 
+    4: ['Achievement', 'Benevolence: caring'],
+    5: ['Power: dominance', 'Benevolence: dependability'], 
+    6: ['Power: resources', 'Universalism: concern'], 
+    7: ['Face', 'Universalism: nature'], 
+    8: ['Security: personal', 'Universalism: tolerance'], 
+    9: ['Security: societal', 'Universalism: objectivity']
+    }
 
 
 def encode_label(inputRow):
